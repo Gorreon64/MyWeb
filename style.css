@@ -1,0 +1,41 @@
+.body 
+{
+background-color: rgb(255, 0, 0);
+color: rgb(0, 0, 0);
+padding: 12px 24px;
+font-size: 16px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: background 0.5s;
+}
+
+.body:hover
+{
+background-color: rgb(0, 255, 0);
+}
+
+.Tarjeta
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.Perfil
+{
+background: white;
+border-radius: 15px;
+box-shadow: 0 4px 12px rgb(255, 0, 0);
+padding: 20px;
+text-align: center;
+width: 250px;
+}
+
+.Perfil img
+{
+width: 100px;
+border-radius: 50%;
+}
